@@ -1,0 +1,446 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/moises/.nvm/versions/node/v4.2.0/bin/node',
+1 verbose cli   '/home/moises/.nvm/versions/node/v4.2.0/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'watchify' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.0
+4 verbose install initial load of /home/moises/Dropbox/Documentos/curso-react/package.json
+5 warn package.json pokechat@ No description
+6 warn package.json pokechat@ No repository field.
+7 warn package.json pokechat@ No README data
+8 warn package.json pokechat@ No license field.
+9 verbose installManyTop reading scoped package data from /home/moises/Dropbox/Documentos/curso-react/node_modules/babel-preset-es2015/package.json
+10 verbose installManyTop reading scoped package data from /home/moises/Dropbox/Documentos/curso-react/node_modules/babel-preset-node5/package.json
+11 verbose installManyTop reading scoped package data from /home/moises/Dropbox/Documentos/curso-react/node_modules/babel-preset-react/package.json
+12 verbose installManyTop reading scoped package data from /home/moises/Dropbox/Documentos/curso-react/node_modules/babelify/package.json
+13 verbose installManyTop reading scoped package data from /home/moises/Dropbox/Documentos/curso-react/node_modules/browserify/package.json
+14 verbose installManyTop reading scoped package data from /home/moises/Dropbox/Documentos/curso-react/node_modules/react/package.json
+15 verbose installManyTop reading scoped package data from /home/moises/Dropbox/Documentos/curso-react/node_modules/react-dom/package.json
+16 verbose installManyTop reading scoped package data from /home/moises/Dropbox/Documentos/curso-react/node_modules/uid/package.json
+17 verbose readDependencies loading dependencies from /home/moises/Dropbox/Documentos/curso-react/package.json
+18 silly cache add args [ 'watchify', null ]
+19 verbose cache add spec watchify
+20 silly cache add parsed spec Result {
+20 silly cache add   raw: 'watchify',
+20 silly cache add   scope: null,
+20 silly cache add   name: 'watchify',
+20 silly cache add   rawSpec: '',
+20 silly cache add   spec: '*',
+20 silly cache add   type: 'range' }
+21 silly addNamed watchify@*
+22 verbose addNamed "*" is a valid semver range for watchify
+23 silly addNameRange { name: 'watchify', range: '*', hasData: false }
+24 silly mapToRegistry name watchify
+25 silly mapToRegistry using default registry
+26 silly mapToRegistry registry https://registry.npmjs.org/
+27 silly mapToRegistry uri https://registry.npmjs.org/watchify
+28 verbose addNameRange registry:https://registry.npmjs.org/watchify not in flight; fetching
+29 verbose request uri https://registry.npmjs.org/watchify
+30 verbose request no auth needed
+31 info attempt registry request try #1 at 03:30:57
+32 verbose request id b25dc2f0f89e220d
+33 http request GET https://registry.npmjs.org/watchify
+34 http 200 https://registry.npmjs.org/watchify
+35 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+35 verbose headers   etag: '"8OEU3UYMT171FZY92JU3UDA8T"',
+35 verbose headers   'content-type': 'application/json',
+35 verbose headers   'cache-control': 'max-age=300',
+35 verbose headers   'content-length': '84055',
+35 verbose headers   'accept-ranges': 'bytes',
+35 verbose headers   date: 'Fri, 11 Mar 2016 08:01:12 GMT',
+35 verbose headers   via: '1.1 varnish',
+35 verbose headers   age: '162',
+35 verbose headers   connection: 'keep-alive',
+35 verbose headers   'x-served-by': 'cache-iad2142-IAD',
+35 verbose headers   'x-cache': 'HIT',
+35 verbose headers   'x-cache-hits': '1',
+35 verbose headers   'x-timer': 'S1457683272.801114,VS0,VE0',
+35 verbose headers   vary: 'Accept' }
+36 silly get cb [ 200,
+36 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+36 silly get     etag: '"8OEU3UYMT171FZY92JU3UDA8T"',
+36 silly get     'content-type': 'application/json',
+36 silly get     'cache-control': 'max-age=300',
+36 silly get     'content-length': '84055',
+36 silly get     'accept-ranges': 'bytes',
+36 silly get     date: 'Fri, 11 Mar 2016 08:01:12 GMT',
+36 silly get     via: '1.1 varnish',
+36 silly get     age: '162',
+36 silly get     connection: 'keep-alive',
+36 silly get     'x-served-by': 'cache-iad2142-IAD',
+36 silly get     'x-cache': 'HIT',
+36 silly get     'x-cache-hits': '1',
+36 silly get     'x-timer': 'S1457683272.801114,VS0,VE0',
+36 silly get     vary: 'Accept' } ]
+37 verbose get saving watchify to /home/moises/.npm/registry.npmjs.org/watchify/.cache.json
+38 silly addNameRange number 2 { name: 'watchify', range: '*', hasData: true }
+39 silly addNameRange versions [ 'watchify',
+39 silly addNameRange   [ '0.0.0',
+39 silly addNameRange     '0.0.1',
+39 silly addNameRange     '0.1.0',
+39 silly addNameRange     '0.2.0',
+39 silly addNameRange     '0.3.0',
+39 silly addNameRange     '0.4.0',
+39 silly addNameRange     '0.4.1',
+39 silly addNameRange     '0.5.0',
+39 silly addNameRange     '0.5.1',
+39 silly addNameRange     '0.5.2',
+39 silly addNameRange     '0.5.3',
+39 silly addNameRange     '0.5.4',
+39 silly addNameRange     '0.5.5',
+39 silly addNameRange     '0.5.6',
+39 silly addNameRange     '0.6.0',
+39 silly addNameRange     '0.6.1',
+39 silly addNameRange     '0.6.2',
+39 silly addNameRange     '0.6.3',
+39 silly addNameRange     '0.6.4',
+39 silly addNameRange     '0.7.0',
+39 silly addNameRange     '0.7.1',
+39 silly addNameRange     '0.7.2',
+39 silly addNameRange     '0.8.0',
+39 silly addNameRange     '0.8.1',
+39 silly addNameRange     '0.8.2',
+39 silly addNameRange     '0.8.3',
+39 silly addNameRange     '0.9.0',
+39 silly addNameRange     '0.10.0',
+39 silly addNameRange     '0.10.1',
+39 silly addNameRange     '0.10.2',
+39 silly addNameRange     '1.0.0',
+39 silly addNameRange     '1.0.1',
+39 silly addNameRange     '1.0.2',
+39 silly addNameRange     '1.0.3',
+39 silly addNameRange     '1.0.4',
+39 silly addNameRange     '1.0.5',
+39 silly addNameRange     '1.0.6',
+39 silly addNameRange     '2.0.0',
+39 silly addNameRange     '2.1.0',
+39 silly addNameRange     '2.1.1',
+39 silly addNameRange     '2.2.0',
+39 silly addNameRange     '2.2.1',
+39 silly addNameRange     '2.3.0',
+39 silly addNameRange     '2.4.0',
+39 silly addNameRange     '2.5.0',
+39 silly addNameRange     '2.6.0',
+39 silly addNameRange     '2.6.1',
+39 silly addNameRange     '2.6.2',
+39 silly addNameRange     '3.0.0',
+39 silly addNameRange     '3.0.1',
+39 silly addNameRange     '3.1.0',
+39 silly addNameRange     '3.1.1',
+39 silly addNameRange     '3.1.2',
+39 silly addNameRange     '3.2.0',
+39 silly addNameRange     '3.2.1',
+39 silly addNameRange     '3.2.2',
+39 silly addNameRange     '3.2.3',
+39 silly addNameRange     '3.3.0',
+39 silly addNameRange     '3.3.1',
+39 silly addNameRange     '3.4.0',
+39 silly addNameRange     '3.5.0',
+39 silly addNameRange     '3.6.0',
+39 silly addNameRange     '3.6.1',
+39 silly addNameRange     '3.7.0' ] ]
+40 silly addNamed watchify@3.7.0
+41 verbose addNamed "3.7.0" is a plain semver version for watchify
+42 silly mapToRegistry name watchify
+43 silly mapToRegistry using default registry
+44 silly mapToRegistry registry https://registry.npmjs.org/
+45 silly mapToRegistry uri https://registry.npmjs.org/watchify
+46 verbose addRemoteTarball https://registry.npmjs.org/watchify/-/watchify-3.7.0.tgz not in flight; adding
+47 verbose addRemoteTarball [ 'https://registry.npmjs.org/watchify/-/watchify-3.7.0.tgz',
+47 verbose addRemoteTarball   'ee2f2c5c8c37312303f998b818b2b3450eefe648' ]
+48 info retry fetch attempt 1 at 03:31:08
+49 info attempt registry request try #1 at 03:31:08
+50 http fetch GET https://registry.npmjs.org/watchify/-/watchify-3.7.0.tgz
+51 http fetch 200 https://registry.npmjs.org/watchify/-/watchify-3.7.0.tgz
+52 silly fetchAndShaCheck shasum ee2f2c5c8c37312303f998b818b2b3450eefe648
+53 verbose addTmpTarball /tmp/npm-12327-49f9d678/registry.npmjs.org/watchify/-/watchify-3.7.0.tgz not in flight; adding
+54 verbose addTmpTarball already have metadata; skipping unpack for watchify@3.7.0
+55 silly cache afterAdd watchify@3.7.0
+56 verbose afterAdd /home/moises/.npm/watchify/3.7.0/package/package.json not in flight; writing
+57 verbose afterAdd /home/moises/.npm/watchify/3.7.0/package/package.json written
+58 silly install resolved [ { name: 'watchify',
+58 silly install resolved     version: '3.7.0',
+58 silly install resolved     description: 'watch mode for browserify builds',
+58 silly install resolved     main: 'index.js',
+58 silly install resolved     bin: { watchify: 'bin/cmd.js' },
+58 silly install resolved     dependencies:
+58 silly install resolved      { anymatch: '^1.3.0',
+58 silly install resolved        browserify: '^13.0.0',
+58 silly install resolved        chokidar: '^1.0.0',
+58 silly install resolved        defined: '^1.0.0',
+58 silly install resolved        outpipe: '^1.1.0',
+58 silly install resolved        through2: '^2.0.0',
+58 silly install resolved        xtend: '^4.0.0' },
+58 silly install resolved     devDependencies:
+58 silly install resolved      { brfs: '^1.0.1',
+58 silly install resolved        mkdirp: '~0.5.1',
+58 silly install resolved        split: '^1.0.0',
+58 silly install resolved        tape: '^4.2.2',
+58 silly install resolved        'uglify-js': '^2.5.0',
+58 silly install resolved        'win-spawn': '^2.0.0' },
+58 silly install resolved     scripts: { test: 'tape test/*.js' },
+58 silly install resolved     repository: { type: 'git', url: 'git://github.com/substack/watchify.git' },
+58 silly install resolved     homepage: 'https://github.com/substack/watchify',
+58 silly install resolved     keywords:
+58 silly install resolved      [ 'browserify',
+58 silly install resolved        'browserify-tool',
+58 silly install resolved        'watch',
+58 silly install resolved        'bundle',
+58 silly install resolved        'build',
+58 silly install resolved        'browser' ],
+58 silly install resolved     author:
+58 silly install resolved      { name: 'James Halliday',
+58 silly install resolved        email: 'mail@substack.net',
+58 silly install resolved        url: 'http://substack.net' },
+58 silly install resolved     license: 'MIT',
+58 silly install resolved     gitHead: '03017659611040789164409e291c5d1ec88348ad',
+58 silly install resolved     bugs: { url: 'https://github.com/substack/watchify/issues' },
+58 silly install resolved     _id: 'watchify@3.7.0',
+58 silly install resolved     _shasum: 'ee2f2c5c8c37312303f998b818b2b3450eefe648',
+58 silly install resolved     _from: 'watchify@*',
+58 silly install resolved     _npmVersion: '2.14.7',
+58 silly install resolved     _nodeVersion: '4.2.3',
+58 silly install resolved     _npmUser: { name: 'feross', email: 'feross@feross.org' },
+58 silly install resolved     dist:
+58 silly install resolved      { shasum: 'ee2f2c5c8c37312303f998b818b2b3450eefe648',
+58 silly install resolved        tarball: 'http://registry.npmjs.org/watchify/-/watchify-3.7.0.tgz' },
+58 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+58 silly install resolved     directories: {},
+58 silly install resolved     _resolved: 'https://registry.npmjs.org/watchify/-/watchify-3.7.0.tgz' } ]
+59 info install watchify@3.7.0 into /home/moises/Dropbox/Documentos/curso-react
+60 info installOne watchify@3.7.0
+61 verbose installOne of watchify to /home/moises/Dropbox/Documentos/curso-react not in flight; installing
+62 verbose lock using /home/moises/.npm/_locks/watchify-10f56001e102153e.lock for /home/moises/Dropbox/Documentos/curso-react/node_modules/watchify
+63 silly install write writing watchify 3.7.0 to /home/moises/Dropbox/Documentos/curso-react/node_modules/watchify
+64 verbose unbuild node_modules/watchify
+65 silly gentlyRm /home/moises/Dropbox/Documentos/curso-react/node_modules/watchify is being purged from base /home/moises/Dropbox/Documentos/curso-react
+66 verbose gentlyRm don't care about contents; nuking /home/moises/Dropbox/Documentos/curso-react/node_modules/watchify
+67 verbose tar unpack /home/moises/.npm/watchify/3.7.0/package.tgz
+68 verbose tar unpacking to /home/moises/Dropbox/Documentos/curso-react/node_modules/watchify
+69 silly gentlyRm /home/moises/Dropbox/Documentos/curso-react/node_modules/watchify is being purged
+70 verbose gentlyRm don't care about contents; nuking /home/moises/Dropbox/Documentos/curso-react/node_modules/watchify
+71 silly gunzTarPerm modes [ '775', '664' ]
+72 silly gunzTarPerm extractEntry package.json
+73 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+74 silly gunzTarPerm extractEntry .npmignore
+75 silly gunzTarPerm modified mode [ '.npmignore', 420, 436 ]
+76 silly gunzTarPerm extractEntry LICENSE
+77 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+78 silly gunzTarPerm extractEntry index.js
+79 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+80 silly gunzTarPerm extractEntry example/files/main.js
+81 silly gunzTarPerm modified mode [ 'example/files/main.js', 420, 436 ]
+82 silly gunzTarPerm extractEntry example/files/one.js
+83 silly gunzTarPerm modified mode [ 'example/files/one.js', 420, 436 ]
+84 silly gunzTarPerm extractEntry example/files/two.js
+85 silly gunzTarPerm modified mode [ 'example/files/two.js', 420, 436 ]
+86 silly gunzTarPerm extractEntry .travis.yml
+87 silly gunzTarPerm modified mode [ '.travis.yml', 420, 436 ]
+88 silly gunzTarPerm extractEntry readme.markdown
+89 silly gunzTarPerm modified mode [ 'readme.markdown', 420, 436 ]
+90 silly gunzTarPerm extractEntry bin/args.js
+91 silly gunzTarPerm modified mode [ 'bin/args.js', 420, 436 ]
+92 silly gunzTarPerm extractEntry bin/cmd.js
+93 silly gunzTarPerm modified mode [ 'bin/cmd.js', 493, 509 ]
+94 silly gunzTarPerm extractEntry test/api.js
+95 silly gunzTarPerm modified mode [ 'test/api.js', 420, 436 ]
+96 silly gunzTarPerm extractEntry test/bin.js
+97 silly gunzTarPerm modified mode [ 'test/bin.js', 420, 436 ]
+98 silly gunzTarPerm extractEntry test/bin_brfs.js
+99 silly gunzTarPerm modified mode [ 'test/bin_brfs.js', 420, 436 ]
+100 silly gunzTarPerm extractEntry test/bin_ignore_watch.js
+101 silly gunzTarPerm modified mode [ 'test/bin_ignore_watch.js', 420, 436 ]
+102 silly gunzTarPerm extractEntry test/bin_ignore_watch_default.js
+103 silly gunzTarPerm modified mode [ 'test/bin_ignore_watch_default.js', 420, 436 ]
+104 silly gunzTarPerm extractEntry test/api_implicit_cache.js
+105 silly gunzTarPerm modified mode [ 'test/api_implicit_cache.js', 420, 436 ]
+106 silly gunzTarPerm extractEntry test/bin_pipe.js
+107 silly gunzTarPerm modified mode [ 'test/bin_pipe.js', 420, 436 ]
+108 silly gunzTarPerm extractEntry test/bin_plugins_pipelining_multiple_errors.js
+109 silly gunzTarPerm modified mode [ 'test/bin_plugins_pipelining_multiple_errors.js', 420, 436 ]
+110 silly gunzTarPerm extractEntry test/bin_standalone.js
+111 silly gunzTarPerm modified mode [ 'test/bin_standalone.js', 420, 436 ]
+112 silly gunzTarPerm extractEntry test/errors.js
+113 silly gunzTarPerm modified mode [ 'test/errors.js', 420, 436 ]
+114 silly gunzTarPerm extractEntry test/errors_transform.js
+115 silly gunzTarPerm modified mode [ 'test/errors_transform.js', 420, 436 ]
+116 silly gunzTarPerm extractEntry test/api_ignore_watch_multiple.js
+117 silly gunzTarPerm modified mode [ 'test/api_ignore_watch_multiple.js', 420, 436 ]
+118 silly gunzTarPerm extractEntry test/expose.js
+119 silly gunzTarPerm modified mode [ 'test/expose.js', 420, 436 ]
+120 silly gunzTarPerm extractEntry test/api_ignore_watch_default.js
+121 silly gunzTarPerm modified mode [ 'test/api_ignore_watch_default.js', 420, 436 ]
+122 silly gunzTarPerm extractEntry test/many.js
+123 silly gunzTarPerm modified mode [ 'test/many.js', 420, 436 ]
+124 silly gunzTarPerm extractEntry test/api_ignore_watch.js
+125 silly gunzTarPerm modified mode [ 'test/api_ignore_watch.js', 420, 436 ]
+126 silly gunzTarPerm extractEntry test/many_immediate.js
+127 silly gunzTarPerm modified mode [ 'test/many_immediate.js', 420, 436 ]
+128 silly gunzTarPerm extractEntry test/api_brfs.js
+129 silly gunzTarPerm modified mode [ 'test/api_brfs.js', 420, 436 ]
+130 silly gunzTarPerm extractEntry test/zzz.js
+131 silly gunzTarPerm modified mode [ 'test/zzz.js', 420, 436 ]
+132 silly gunzTarPerm extractEntry test/bin_ignore_watch_multiple.js
+133 silly gunzTarPerm modified mode [ 'test/bin_ignore_watch_multiple.js', 420, 436 ]
+134 verbose write writing to /home/moises/Dropbox/Documentos/curso-react/node_modules/watchify/package.json
+135 info preinstall watchify@3.7.0
+136 verbose readDependencies loading dependencies from /home/moises/Dropbox/Documentos/curso-react/node_modules/watchify/package.json
+137 silly prepareForInstallMany adding anymatch@^1.3.0 from watchify dependencies
+138 silly prepareForInstallMany adding chokidar@^1.0.0 from watchify dependencies
+139 silly prepareForInstallMany adding defined@^1.0.0 from watchify dependencies
+140 silly prepareForInstallMany adding outpipe@^1.1.0 from watchify dependencies
+141 silly prepareForInstallMany adding through2@^2.0.0 from watchify dependencies
+142 silly prepareForInstallMany adding xtend@^4.0.0 from watchify dependencies
+143 verbose readDependencies loading dependencies from /home/moises/Dropbox/Documentos/curso-react/node_modules/watchify/package.json
+144 silly cache add args [ 'anymatch@^1.3.0', null ]
+145 verbose cache add spec anymatch@^1.3.0
+146 silly cache add args [ 'chokidar@^1.0.0', null ]
+147 verbose cache add spec chokidar@^1.0.0
+148 silly cache add parsed spec Result {
+148 silly cache add   raw: 'anymatch@^1.3.0',
+148 silly cache add   scope: null,
+148 silly cache add   name: 'anymatch',
+148 silly cache add   rawSpec: '^1.3.0',
+148 silly cache add   spec: '>=1.3.0 <2.0.0',
+148 silly cache add   type: 'range' }
+149 silly addNamed anymatch@>=1.3.0 <2.0.0
+150 verbose addNamed ">=1.3.0 <2.0.0" is a valid semver range for anymatch
+151 silly addNameRange { name: 'anymatch', range: '>=1.3.0 <2.0.0', hasData: false }
+152 silly mapToRegistry name anymatch
+153 silly mapToRegistry using default registry
+154 silly mapToRegistry registry https://registry.npmjs.org/
+155 silly mapToRegistry uri https://registry.npmjs.org/anymatch
+156 verbose addNameRange registry:https://registry.npmjs.org/anymatch not in flight; fetching
+157 silly cache add parsed spec Result {
+157 silly cache add   raw: 'chokidar@^1.0.0',
+157 silly cache add   scope: null,
+157 silly cache add   name: 'chokidar',
+157 silly cache add   rawSpec: '^1.0.0',
+157 silly cache add   spec: '>=1.0.0 <2.0.0',
+157 silly cache add   type: 'range' }
+158 silly addNamed chokidar@>=1.0.0 <2.0.0
+159 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for chokidar
+160 silly addNameRange { name: 'chokidar', range: '>=1.0.0 <2.0.0', hasData: false }
+161 silly mapToRegistry name chokidar
+162 silly mapToRegistry using default registry
+163 silly mapToRegistry registry https://registry.npmjs.org/
+164 silly mapToRegistry uri https://registry.npmjs.org/chokidar
+165 verbose addNameRange registry:https://registry.npmjs.org/chokidar not in flight; fetching
+166 silly cache add args [ 'defined@^1.0.0', null ]
+167 verbose cache add spec defined@^1.0.0
+168 silly cache add parsed spec Result {
+168 silly cache add   raw: 'defined@^1.0.0',
+168 silly cache add   scope: null,
+168 silly cache add   name: 'defined',
+168 silly cache add   rawSpec: '^1.0.0',
+168 silly cache add   spec: '>=1.0.0 <2.0.0',
+168 silly cache add   type: 'range' }
+169 silly addNamed defined@>=1.0.0 <2.0.0
+170 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for defined
+171 silly addNameRange { name: 'defined', range: '>=1.0.0 <2.0.0', hasData: false }
+172 silly mapToRegistry name defined
+173 silly mapToRegistry using default registry
+174 silly mapToRegistry registry https://registry.npmjs.org/
+175 silly mapToRegistry uri https://registry.npmjs.org/defined
+176 verbose addNameRange registry:https://registry.npmjs.org/defined not in flight; fetching
+177 silly cache add args [ 'outpipe@^1.1.0', null ]
+178 verbose cache add spec outpipe@^1.1.0
+179 silly cache add parsed spec Result {
+179 silly cache add   raw: 'outpipe@^1.1.0',
+179 silly cache add   scope: null,
+179 silly cache add   name: 'outpipe',
+179 silly cache add   rawSpec: '^1.1.0',
+179 silly cache add   spec: '>=1.1.0 <2.0.0',
+179 silly cache add   type: 'range' }
+180 silly addNamed outpipe@>=1.1.0 <2.0.0
+181 verbose addNamed ">=1.1.0 <2.0.0" is a valid semver range for outpipe
+182 silly addNameRange { name: 'outpipe', range: '>=1.1.0 <2.0.0', hasData: false }
+183 silly mapToRegistry name outpipe
+184 silly mapToRegistry using default registry
+185 silly mapToRegistry registry https://registry.npmjs.org/
+186 silly mapToRegistry uri https://registry.npmjs.org/outpipe
+187 verbose addNameRange registry:https://registry.npmjs.org/outpipe not in flight; fetching
+188 silly cache add args [ 'through2@^2.0.0', null ]
+189 verbose cache add spec through2@^2.0.0
+190 silly cache add parsed spec Result {
+190 silly cache add   raw: 'through2@^2.0.0',
+190 silly cache add   scope: null,
+190 silly cache add   name: 'through2',
+190 silly cache add   rawSpec: '^2.0.0',
+190 silly cache add   spec: '>=2.0.0 <3.0.0',
+190 silly cache add   type: 'range' }
+191 silly addNamed through2@>=2.0.0 <3.0.0
+192 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for through2
+193 silly addNameRange { name: 'through2', range: '>=2.0.0 <3.0.0', hasData: false }
+194 silly mapToRegistry name through2
+195 silly mapToRegistry using default registry
+196 silly mapToRegistry registry https://registry.npmjs.org/
+197 silly mapToRegistry uri https://registry.npmjs.org/through2
+198 verbose addNameRange registry:https://registry.npmjs.org/through2 not in flight; fetching
+199 silly cache add args [ 'xtend@^4.0.0', null ]
+200 verbose cache add spec xtend@^4.0.0
+201 silly cache add parsed spec Result {
+201 silly cache add   raw: 'xtend@^4.0.0',
+201 silly cache add   scope: null,
+201 silly cache add   name: 'xtend',
+201 silly cache add   rawSpec: '^4.0.0',
+201 silly cache add   spec: '>=4.0.0 <5.0.0',
+201 silly cache add   type: 'range' }
+202 silly addNamed xtend@>=4.0.0 <5.0.0
+203 verbose addNamed ">=4.0.0 <5.0.0" is a valid semver range for xtend
+204 silly addNameRange { name: 'xtend', range: '>=4.0.0 <5.0.0', hasData: false }
+205 silly mapToRegistry name xtend
+206 silly mapToRegistry using default registry
+207 silly mapToRegistry registry https://registry.npmjs.org/
+208 silly mapToRegistry uri https://registry.npmjs.org/xtend
+209 verbose addNameRange registry:https://registry.npmjs.org/xtend not in flight; fetching
+210 verbose request uri https://registry.npmjs.org/outpipe
+211 verbose request no auth needed
+212 info attempt registry request try #1 at 03:31:30
+213 http request GET https://registry.npmjs.org/outpipe
+214 verbose request uri https://registry.npmjs.org/anymatch
+215 verbose request no auth needed
+216 info attempt registry request try #1 at 03:31:30
+217 verbose etag "9Y3DCB9Z5SPDOVKKP0DYD59OG"
+218 http request GET https://registry.npmjs.org/anymatch
+219 verbose request uri https://registry.npmjs.org/xtend
+220 verbose request no auth needed
+221 info attempt registry request try #1 at 03:31:30
+222 verbose etag "4O71ZSW7GI25INWNGHEBIR7QV"
+223 http request GET https://registry.npmjs.org/xtend
+224 verbose request uri https://registry.npmjs.org/defined
+225 verbose request no auth needed
+226 info attempt registry request try #1 at 03:31:30
+227 verbose etag "BW3XNDV52RM5T6F5KNEHTYJGX"
+228 http request GET https://registry.npmjs.org/defined
+229 verbose request uri https://registry.npmjs.org/chokidar
+230 verbose request no auth needed
+231 info attempt registry request try #1 at 03:31:30
+232 verbose etag "8H7WGE44A1YSM1UWW18291WPZ"
+233 http request GET https://registry.npmjs.org/chokidar
+234 verbose request uri https://registry.npmjs.org/through2
+235 verbose request no auth needed
+236 info attempt registry request try #1 at 03:31:30
+237 verbose etag "EME3YVJ0GN3KVYVVAL4C8W9HT"
+238 http request GET https://registry.npmjs.org/through2
+239 verbose stack Error: read ECONNRESET
+239 verbose stack     at exports._errnoException (util.js:874:11)
+239 verbose stack     at TLSWrap.onread (net.js:544:26)
+240 verbose cwd /home/moises/Dropbox/Documentos/curso-react
+241 error Linux 4.2.0-16-generic
+242 error argv "/home/moises/.nvm/versions/node/v4.2.0/bin/node" "/home/moises/.nvm/versions/node/v4.2.0/bin/npm" "install" "--save" "watchify"
+243 error node v4.2.0
+244 error npm  v2.14.7
+245 error code ECONNRESET
+246 error errno ECONNRESET
+247 error syscall read
+248 error network read ECONNRESET
+248 error network This is most likely not a problem with npm itself
+248 error network and is related to network connectivity.
+248 error network In most cases you are behind a proxy or have bad network settings.
+248 error network
+248 error network If you are behind a proxy, please make sure that the
+248 error network 'proxy' config is set properly.  See: 'npm help config'
+249 verbose exit [ 1, true ]
